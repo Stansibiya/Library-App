@@ -1,0 +1,74 @@
+﻿
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Create New Book Entry</title>
+
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+   
+    <link rel="stylesheet" href="/Content/TableStyle/css/style.css">
+    <script src="~/Scripts/jquery-1.12.4.js"></script>
+    <script src="~/Scripts/jquery-ui-1.12.1.min.js"></script>
+    <link href="~/Content/themes/base/jquery-ui.css" rel="stylesheet" />
+</head>
+<body>
+
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+       
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2" style="background: rgba(45, 152, 152, 0.54);color:white">
+                    <ul id="bookList" style="margin-top:20px;">
+                        <li><a href="/Library/BooksList" class="listButton">Home</a></li>
+                        <li><a href="/Library/BooksList" class="listButton">Our Books</a></li>
+                        <li><a href="/Library/Create" class="listButton">Add Book</a></li>
+                        <li><a href="#" class="listButton">Branches</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6 col-sm-offset-1 alert alert-dismissable" style="color: white;background: rgba(45, 152, 152, 0.54); padding: 5%; margin-right: 60px;">
+
+                    @RenderBody()
+                </div>
+                <div class="col-md-2" style="color: white;background: rgba(45, 152, 152, 0.54);">
+                    <h3>News</h3>
+                </div>
+            </div>
+        </div>
+
+    }
+
+    <script>
+        $(document).ready(function () {
+
+            $("#shTabs").tabs({
+                event: "click",
+                show: "fadein",
+                hide: "fadeout",
+                collapsible: true,
+                heightstyle: "auto",
+                active: 2
+            });
+
+            $("#datePicker").datepicker({
+                changeYear: true,
+                changeMonth: true,
+                dateFormat: "dd MM yy",
+                numberOfMonths: 1,
+                maxDate: 99999,
+                minDate: -99999999999
+               
+                
+            });
+            $(".listButton").css({"width":"80%","text-align":"left","margin-top":"5px"});
+            $(".listButton").button();
+        });
+    </script>
+</body>
+</html>

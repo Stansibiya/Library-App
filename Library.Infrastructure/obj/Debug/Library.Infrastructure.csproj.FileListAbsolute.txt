@@ -1,0 +1,12 @@
+c:\users\tshepo\documents\visual studio 2013\Projects\Library-App\Library.Infrastructure\bin\Debug\Library.Infrastructure.dll
+c:\users\tshepo\documents\visual studio 2013\Projects\Library-App\Library.Infrastructure\bin\Debug\Library.Infrastructure.pdb
+c:\users\tshepo\documents\visual studio 2013\Projects\Library-App\Library.Infrastructure\obj\Debug\Library.Infrastructure.dll
+c:\users\tshepo\documents\visual studio 2013\Projects\Library-App\Library.Infrastructure\obj\Debug\Library.Infrastructure.pdb
+c:\users\tshepo\documents\visual studio 2013\Projects\Library-App\Library.Infrastructure\bin\Debug\Library.Infrastructure.dll.config
+c:\users\tshepo\documents\visual studio 2013\Projects\Library-App\Library.Infrastructure\bin\Debug\EntityFramework.dll
+c:\users\tshepo\documents\visual studio 2013\Projects\Library-App\Library.Infrastructure\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\tshepo\documents\visual studio 2013\Projects\Library-App\Library.Infrastructure\bin\Debug\Library.core.dll
+c:\users\tshepo\documents\visual studio 2013\Projects\Library-App\Library.Infrastructure\bin\Debug\Library.core.pdb
+c:\users\tshepo\documents\visual studio 2013\Projects\Library-App\Library.Infrastructure\bin\Debug\EntityFramework.xml
+c:\users\tshepo\documents\visual studio 2013\Projects\Library-App\Library.Infrastructure\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\tshepo\documents\visual studio 2013\Projects\Library-App\Library.Infrastructure\obj\Debug\Library.Infrastructure.csprojResolveAssemblyReference.cache

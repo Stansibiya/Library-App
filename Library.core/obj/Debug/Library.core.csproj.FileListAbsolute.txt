@@ -1,0 +1,10 @@
+c:\users\tshepo\documents\visual studio 2013\Projects\Library-App\Library.core\bin\Debug\Library.core.dll.config
+c:\users\tshepo\documents\visual studio 2013\Projects\Library-App\Library.core\bin\Debug\Library.core.dll
+c:\users\tshepo\documents\visual studio 2013\Projects\Library-App\Library.core\bin\Debug\Library.core.pdb
+c:\users\tshepo\documents\visual studio 2013\Projects\Library-App\Library.core\bin\Debug\EntityFramework.dll
+c:\users\tshepo\documents\visual studio 2013\Projects\Library-App\Library.core\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\tshepo\documents\visual studio 2013\Projects\Library-App\Library.core\bin\Debug\EntityFramework.xml
+c:\users\tshepo\documents\visual studio 2013\Projects\Library-App\Library.core\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\tshepo\documents\visual studio 2013\Projects\Library-App\Library.core\obj\Debug\Library.core.csprojResolveAssemblyReference.cache
+c:\users\tshepo\documents\visual studio 2013\Projects\Library-App\Library.core\obj\Debug\Library.core.dll
+c:\users\tshepo\documents\visual studio 2013\Projects\Library-App\Library.core\obj\Debug\Library.core.pdb

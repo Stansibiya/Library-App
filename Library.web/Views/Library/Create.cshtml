@@ -1,0 +1,55 @@
+﻿@model Library.core.Models.Book
+@{
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+<div>
+    <a href="/" class="btn btn-danger" id="btnCancel">
+        <i class='glyphicon glyphicon-remove-circle'></i> Cancel
+    </a><hr />
+</div>
+<h3 style="font-family:'Comic Sans MS'">Create New Book</h3>
+<hr />
+<div class="form-group" id="form-group">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+        @Html.TextBoxFor(model => model.Title, new { @class = "form-control", @placeholder = "Book Title", @style = "background-color:rgb(249, 255, 215)" })
+    </div>
+    @Html.ValidationMessageFor(model => model.Title)
+</div>
+
+<div class="form-group" id="groups">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+        
+        @Html.TextBoxFor(model => model.Year, new {  @id = "datePicker", @class = "form-control", @placeholder = "Year", @style = "background-color:rgb(249, 255, 215)" })
+    </div>
+    @Html.ValidationMessageFor(model => model.Year)
+</div>
+
+<div class="form-group" id="form-group">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-barcode"></i></span>
+        @Html.TextBoxFor(model => model.Author, new { @class = "form-control", @type = "number", @placeholder = "Author Nr#", @style = "background-color:rgb(249, 255, 215)" })
+    </div>
+    @Html.ValidationMessageFor(model => model.Author)
+</div>
+<div class="form-group">
+    <button class="btn btn-primary" id="btnCreate">
+        <i class="glyphicon glyphicon-book"></i>
+        Create
+    </button>
+
+
+    <script>
+        $(document).ready(function () {
+            $("#btnCreate").click(function () {
+                alert("Book successfully added!");
+            });
+            $("#btnCancel").click(function () {
+                
+                window.location.href = "/Library/BooksList";
+            });
+        });
+    </script>
+
+</div>
